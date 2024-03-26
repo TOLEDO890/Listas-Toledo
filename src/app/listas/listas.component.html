@@ -1,0 +1,11 @@
+<div class="background">
+    <h1 class="text-center text-white">Alumnos</h1>
+    <hr>
+    <ul class="text-white list-group">
+    <h2 class="text-center">Aprobados</h2>
+     <li class="list-group-item list-group-item-success text-center" *ngFor="let alumnoaprobado of alumnosaprobados"> {{alumnoaprobado}}</li>
+     <h2 class="text-center">Desaprobados</h2>
+     <li class="list-group-item list-group-item-danger text-center " *ngFor="let alumnodesaprobado of alumnosdesaprobados">{{alumnodesaprobado}} </li>
+    </ul>
+    <hr>
+</div>
